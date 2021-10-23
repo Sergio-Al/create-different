@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+// rem
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $principal-color;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  max-width: 118.9rem;
+  margin: 0 auto;
+}
+
+.principal-button {
+  background: $secondary-color;
+  border-style: none;
+  border-radius: 1.3rem;
+  color: $principal-color;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background: white;
+    border-color: $principal-color;
+    border-style: solid;
+    border-width: 0.1rem;
+    cursor: pointer;
+  }
+}
+
+.principal-link {
+  color: $principal-color;
+  text-decoration: none;
+}

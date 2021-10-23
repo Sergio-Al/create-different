@@ -1,0 +1,37 @@
+.experience-item-card {
+  margin: 1.5rem;
+  width: 32rem;
+  min-height: 35.3rem;
+  background: rgba(111, 111, 111, 0.15);
+  box-shadow: inset 24.5px -24.5px 24.5px rgba(149, 149, 149, 0.15),
+    inset -24.5px 24.5px 24.5px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(44.1px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 25px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  @media screen and (min-width: 1025px) {
+    margin: 2.2 auto;
+  }
+}
+
+.experience-item-card-icon {
+  font-size: 9.7rem;
+}
+
+.experience-item-card-years {
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+
+.experience-item-card-title {
+  font-size: 1.8rem;
+}
+
+.experience-item-card-body {
+  font-size: 1.6rem;
+}
